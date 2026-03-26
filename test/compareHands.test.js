@@ -20,8 +20,8 @@ describe('comparePlayers', () => {
     const board = ['4C', '5D', '6H', '7S', 'KD'];
 
     const players = [
-      { playerId: 'p1', holeCards: ['8C', '2D'] }, // 8-high straight
-      { playerId: 'p2', holeCards: ['3C', '2H'] }  // 7-high straight
+      { playerId: 'p1', holeCards: ['8C', '2D'] },
+      { playerId: 'p2', holeCards: ['3C', '2H'] }
     ];
 
     const result = comparePlayers(board, players);
@@ -46,8 +46,8 @@ describe('comparePlayers', () => {
     const board = ['KC', 'KD', '2H', '2S', '9D'];
 
     const players = [
-      { playerId: 'p1', holeCards: ['KH', '3C'] }, // KKK22
-      { playerId: 'p2', holeCards: ['2C', 'AS'] }  // 222KK
+      { playerId: 'p1', holeCards: ['KH', '3C'] }, 
+      { playerId: 'p2', holeCards: ['2C', 'AS'] }  
     ];
 
     const result = comparePlayers(board, players);
@@ -59,8 +59,8 @@ describe('comparePlayers', () => {
     const board = ['AH', 'JH', '8H', '4H', '2D'];
 
     const players = [
-      { playerId: 'p1', holeCards: ['9H', '3C'] }, // A J 9 8 4
-      { playerId: 'p2', holeCards: ['7H', 'KC'] }  // A J 8 7 4
+      { playerId: 'p1', holeCards: ['9H', '3C'] }, 
+      { playerId: 'p2', holeCards: ['7H', 'KC'] }  
     ];
 
     const result = comparePlayers(board, players);
