@@ -1,0 +1,27 @@
+{
+  "name": "texas_holdem_evaluator",
+  "version": "1.0.0",
+  "description": "texas_holdem_evaluator",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoutsaStevie/texas_holdem_evaluator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VoutsaStevie/texas_holdem_evaluator/issues"
+  },
+  "homepage": "https://github.com/VoutsaStevie/texas_holdem_evaluator#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
